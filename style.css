@@ -1,0 +1,92 @@
+body {
+    color: darkslategray;
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin: 1rem 0;
+}
+
+h2 {
+    font-size: 2.3rem;
+    margin: 1rem 0;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+h4 {
+    font-size: 1.7rem;
+    margin: 1rem 0;
+}
+
+p {
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+}
+
+body>header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkslategray;
+    padding: 0 1rem;
+}
+
+body>header h1 {
+    display: block;
+}
+ 
+body>header nav {
+    display: block;
+}
+
+body>header a {
+    height: 100%;
+    padding: 0 1.5rem;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+ 
+body>header a:hover {
+    background-color: darkslategrey;
+    color: slategray;
+}
+
+main {
+    display: block;
+    margin: 0 10rem;
+    padding: 2rem;
+}
+
+main article h4 {
+    display: inline-block;
+    width: 100%;
+}
+
+main article div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+main article img {
+    display: block;
+    height: 18rem;
+}
+
+main article p {
+    display: block;
+}
+
+.left-pos {
+    margin-right: 2rem;
+}
+
+.right-pos {
+    margin-left: 2rem;
+}
